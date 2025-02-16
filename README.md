@@ -2,6 +2,8 @@
 
 Welcome to my portfolio! Here, you'll find a showcase of my work, skills, and journey as a computer programmer. This portfolio highlights my passion for coding, problem-solving, and continuous learning.
 
+Check it out **[here](https://rayasophia.github.io/portfolio)**!
+
 ## Projects
 
 ### **PopSwap**  
@@ -21,5 +23,5 @@ Built using C and Oracle OCCI to manage customer orders and shopping carts, with
 I’m always open to connecting! If you’d like to discuss my projects or potential opportunities, feel free to reach out via:
 
 - **Email**: rayamcasas@gmail.com  
-- **LinkedIn**: [https://www.linkedin.com/in/rayamcasas/]  
-- **GitHub**: [https://github.com/rayasophia]  
+- **LinkedIn**: https://www.linkedin.com/in/rayamcasas/ 
+- **GitHub**: https://github.com/rayasophia  
