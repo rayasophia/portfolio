@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,900&family=Raleway:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+    --dark-color: #0c0c0c;
+    --light-color: #f8f8f8;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--light-color);
+}
+
+.bg-dark-override {
+    background-color: var(--dark-color);
+}
+
+.bg-light-override {
+    background-color: var(--light-color);
+}
+
+.text-dark-override {
+    color: var(--dark-color);
+}
+
+.text-light-override {
+    color: var(--light-color);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.nav-item {
+    color: var(--light-color);
+}
+
+.welcome {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.welcome h1 {
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 4.5em;
+    /* margin: 0; */
+}
+  
+.welcome p {
+    font-family: 'Nunito', sans-serif !important;
+    line-height: 25px;
+    font-size: 1.25em;
+}
+  
+#blinking-cursor {
+    -webkit-animation: blink 1.5s infinite;
+}
+  
+@-webkit-keyframes blink {
+    0% {color: var(--light-color)}
+    50% {color: var(--dark-color)}
+    100% {color: var(--light-color)}
+}
+
+section {
+    scroll-margin-top: 1em;
+}
+
+section h2 {
+    padding: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+  
+hr {
+    border-style: solid;
+    border-width: 1.5px;
+    width: 20%;
+}
+
+.hr-dark {
+    border-color: var(--dark-color);
+}
+
+.hr-light {
+    border-color: var(--light-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.about-desc {
+    padding: 0 8%;
+}
+
+.about-desc a {
+    color: var(--dark-color);
+}
