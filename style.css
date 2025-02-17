@@ -106,3 +106,91 @@ a {
 .about-desc a {
     color: var(--dark-color);
 }
+
+#experience-row {
+    padding: 0 5%;
+}
+
+.logo {
+    padding: 8% 0;
+}
+
+#saperium-logo {
+    width: 60%;
+}
+
+#up-acm-logo {
+    width: 40%;
+}
+
+#aka-logo {
+    width: 40%;
+}
+
+.col-spacing {
+    padding: 0 8%;
+}
+
+#experience-row ul {
+    padding: 0;
+    text-align: left;
+}
+
+#experience-row a {
+    color: var(--light-color);
+}
+
+.carousel {
+    width: 70%;
+    margin: auto;
+}
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f8f8f8' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f8f8f8' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.hideme {
+    opacity: 0;
+}
+
+#footer {
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons {
+    font-size: 1.5rem;
+}
+
+.social-icons ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline;
+    padding: 0 0.4rem;
+}
+
+.carousel-inner a, .social-icons a {
+    color: var(--light-color);
+}
+
+.carousel-image {
+    object-fit: contain;
+}
